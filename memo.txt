@@ -1,2 +1,10 @@
 git add
-git commit -m "readme.txt"
+git commit -m "readme.txt added"  -""안에 파일명
+
+git log 지금까지 커밋 확인
+
+첫번째 커밋 돌아갈때 7자리 아이디
+git checkout ID (과거로)
+git check out master (현재로)
+
+f8c03d7

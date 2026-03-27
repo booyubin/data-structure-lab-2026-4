@@ -1,10 +1,45 @@
-git add
-git commit -m "readme.txt added"  -""안에 파일명
+V2>V4
+Complex.h
+#pragma once
+#include <cstdio>
+class Complex
+{
+	double real;
+	double imag;
+public:
+	void setComplex(double r, double i) {
+		real = r;
+		imag = i;
+	}
+	void readComplex(const char* msg = "복소수= ");
+	void printComplex(const char* msg = "복소수= ");
+	void addComplex(Complex a, Complex b);
+};
 
-git log 지금까지 커밋 확인
 
-첫번째 커밋 돌아갈때 7자리 아이디
-git checkout ID (과거로)
-git check out master (현재로)
+Complex.cpp
+#include "Complex.h"
+void Complex::readComplex(const char* msg) {
+	printf("%s", msg);
+	scanf_s("%lf%lf", &real, &imag);
+}
+void Complex::printComplex(const char* msg) {
+	printf("%s %4.2f + %4.2fi\n", msg, real, imag);
+}
+void Complex::addComplex(Complex a, Complex b) {
+	real = a.real + b.real;
+	imag = a.imag + b.imag;
+}
 
-f8c03d7
+ComplexTest.cpp
+#include "Complex.h"
+void main()
+{
+	Complex a, b, c;
+	a.readComplex("A =");
+	b.readComplex("B =");
+	c.addComplex(a,b);
+	a.printComplex("A =");
+	b.printComplex(" B =");
+	c.printComplex("A+B =");
+}

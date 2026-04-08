@@ -1,0 +1,170 @@
+﻿  main.cpp
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\main.cpp(2,7): error C2059: 구문 오류: 'using namespace'
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\main.cpp(6,2): error C2065: 'cout': 선언되지 않은 식별자입니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\main.cpp(6,29): error C2065: 'endl': 선언되지 않은 식별자입니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\main.cpp(8,2): error C2065: 'cout': 선언되지 않은 식별자입니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\main.cpp(8,41): error C2065: 'endl': 선언되지 않은 식별자입니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\main.cpp(10,2): error C2065: 'cout': 선언되지 않은 식별자입니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\main.cpp(10,51): error C2065: 'endl': 선언되지 않은 식별자입니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\main.cpp(11,2): error C2065: 'cout': 선언되지 않은 식별자입니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\main.cpp(11,26): error C2065: 'boolalpha': 선언되지 않은 식별자입니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\main.cpp(11,59): error C2065: 'endl': 선언되지 않은 식별자입니다.
+  PetMain.cpp
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(7,2): error C2059: 구문 오류: 'protected'
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(7,11): error C2059: 구문 오류: ':'
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(11,2): error C2059: 구문 오류: 'public'
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,14): error C2146: 구문 오류: ')'이(가) 'n' 식별자 앞에 없습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,7): error C2079: 'string'은(는) 정의되지 않은 class 'Pet'을(를) 사용합니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,14): error C2146: 구문 오류: ';'이(가) 'n' 식별자 앞에 없습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,15): error C2059: 구문 오류: ','
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,32): error C2059: 구문 오류: ')'
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(14,12): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(14,6): error C2371: 'name': 재정의. 기본 형식이 다릅니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(8,10):
+  'name' 선언을 참조하십시오.
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(14,11): error C2065: 'n': 선언되지 않은 식별자입니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(14,20): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(14,15): error C2086: 'int age': 재정의
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(9,7):
+  'age' 선언을 참조하십시오.
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(14,19): error C2065: 'a': 선언되지 않은 식별자입니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(14,29): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(14,23): error C2371: 'type': 재정의. 기본 형식이 다릅니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(10,10):
+  'type' 선언을 참조하십시오.
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(14,28): error C2065: 't': 선언되지 않은 식별자입니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(14,31): error C2059: 구문 오류: '{'
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(14,31): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(14,31): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(17,3): error C2872: 'string': 모호한 기호입니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,7):
+  'int string'일 수 있습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,19):
+  또는       'std::string'
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(17,17): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(17,3): error C2086: 'int string': 재정의
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,7):
+  'string' 선언을 참조하십시오.
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(17,10): error C2146: 구문 오류: ';'이(가) 'getName' 식별자 앞에 없습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(20,3): error C2872: 'string': 모호한 기호입니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,7):
+  'int string'일 수 있습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,19):
+  또는       'std::string'
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(20,16): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(20,3): error C2086: 'int string': 재정의
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,7):
+  'string' 선언을 참조하십시오.
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(20,10): error C2146: 구문 오류: ';'이(가) 'getAge' 식별자 앞에 없습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(23,3): error C2872: 'string': 모호한 기호입니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,7):
+  'int string'일 수 있습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,19):
+  또는       'std::string'
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(23,17): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(23,3): error C2086: 'int string': 재정의
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,7):
+  'string' 선언을 참조하십시오.
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(23,10): error C2146: 구문 오류: ';'이(가) 'getType' 식별자 앞에 없습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(26,22): error C2504: 'Pet': 기본 클래스를 정의하지 않았습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(28,2): error C2872: 'string': 모호한 기호입니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,7):
+  'int string'일 수 있습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,19):
+  또는       'std::string'
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(28,9): error C3646: 'breed': 알 수 없는 재정의 지정자입니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(28,14): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(31,8): error C2872: 'string': 모호한 기호입니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(13,7):
+  'int string'일 수 있습니다.
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(5127,19):
+  또는       'std::string'
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(31,8): error C2061: 구문 오류: 식별자 'string'
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\PetMain.cpp(3,11): error C2059: 구문 오류: '문자열'
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\PetMain.cpp(4,6): error C2143: 구문 오류: ';'이(가) '<<' 앞에 없습니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\PetMain.cpp(4,6): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\PetMain.cpp(4,52): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\PetMain.cpp(6,15): error C2059: 구문 오류: '문자열'
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\PetMain.cpp(7,6): error C2143: 구문 오류: ';'이(가) '<<' 앞에 없습니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\PetMain.cpp(7,6): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\PetMain.cpp(7,58): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+C:\Users\USER\Documents\data-structure-lab-2026-4\Lecture_Class_Example\Pet.h(26,26): error C1075: '{': 일치하는 토큰을 찾을 수 없습니다.
+  (소스 파일 'PetMain.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...

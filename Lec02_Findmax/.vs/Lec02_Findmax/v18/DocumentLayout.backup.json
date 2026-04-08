@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Data_class\\friend_github\\data-structure-lab-2026-4\\Lec02_Findmax\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38CB0BB8-3C17-46B9-95AD-9947699B21F9}|Lec02_Findmax\\Lec02_Findmax.vcxproj|D:\\Data_class\\friend_github\\data-structure-lab-2026-4\\Lec02_Findmax\\Lec02_Findmax\\find_max.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{38CB0BB8-3C17-46B9-95AD-9947699B21F9}|Lec02_Findmax\\Lec02_Findmax.vcxproj|solutionrelative:Lec02_Findmax\\find_max.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38CB0BB8-3C17-46B9-95AD-9947699B21F9}|Lec02_Findmax\\Lec02_Findmax.vcxproj|D:\\Data_class\\friend_github\\data-structure-lab-2026-4\\Lec02_Findmax\\Lec02_Findmax\\run.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{38CB0BB8-3C17-46B9-95AD-9947699B21F9}|Lec02_Findmax\\Lec02_Findmax.vcxproj|solutionrelative:Lec02_Findmax\\run.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "run.ps1",
+              "DocumentMoniker": "D:\\Data_class\\friend_github\\data-structure-lab-2026-4\\Lec02_Findmax\\Lec02_Findmax\\run.ps1",
+              "RelativeDocumentMoniker": "Lec02_Findmax\\run.ps1",
+              "ToolTip": "D:\\Data_class\\friend_github\\data-structure-lab-2026-4\\Lec02_Findmax\\Lec02_Findmax\\run.ps1",
+              "RelativeToolTip": "Lec02_Findmax\\run.ps1",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-08T16:46:59.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "find_max.cpp",
+              "DocumentMoniker": "D:\\Data_class\\friend_github\\data-structure-lab-2026-4\\Lec02_Findmax\\Lec02_Findmax\\find_max.cpp",
+              "RelativeDocumentMoniker": "Lec02_Findmax\\find_max.cpp",
+              "ToolTip": "D:\\Data_class\\friend_github\\data-structure-lab-2026-4\\Lec02_Findmax\\Lec02_Findmax\\find_max.cpp",
+              "RelativeToolTip": "Lec02_Findmax\\find_max.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-08T16:34:29.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

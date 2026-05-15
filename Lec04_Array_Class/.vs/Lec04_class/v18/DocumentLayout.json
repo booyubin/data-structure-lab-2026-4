@@ -3,14 +3,14 @@
   "WorkspaceRootPath": "D:\\data-structure-lab-2026-4\\Lec04_Array_Class\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Documents\\data-structure-lab-2026-4\\Lec04_class\\Lec04_class\\ComplexTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C86B4E24-FBA1-4C20-A5E6-359CCA4B6908}|Polynomial_Class\\Polynomial_Class.vcxproj|D:\\data-structure-lab-2026-4\\Lec04_Array_Class\\Polynomial_Class\\Polynomial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C86B4E24-FBA1-4C20-A5E6-359CCA4B6908}|Polynomial_Class\\Polynomial_Class.vcxproj|solutionrelative:Polynomial_Class\\Polynomial.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Documents\\data-structure-lab-2026-4\\Lec04_class\\Lec04_class\\Complex.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Documents\\data-structure-lab-2026-4\\Lec04_class\\Lec04_class\\ComplexTest.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C86B4E24-FBA1-4C20-A5E6-359CCA4B6908}|Polynomial_Class\\Polynomial_Class.vcxproj|D:\\data-structure-lab-2026-4\\Lec04_Array_Class\\Polynomial_Class\\Polynomial.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -28,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -52,12 +52,11 @@
               "RelativeToolTip": "Polynomial_Class\\Polynomial.cpp",
               "ViewState": "AgIAACAAAAAAAAAAAAAIwDwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-08T17:08:44.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T17:08:44.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Polynomial.h",
               "DocumentMoniker": "D:\\data-structure-lab-2026-4\\Lec04_Array_Class\\Polynomial_Class\\Polynomial.h",
               "RelativeDocumentMoniker": "Polynomial_Class\\Polynomial.h",
@@ -65,12 +64,11 @@
               "RelativeToolTip": "Polynomial_Class\\Polynomial.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-08T17:08:44.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T17:08:44.012Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ComplexTest.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\data-structure-lab-2026-4\\Lec04_class\\Lec04_class\\ComplexTest.cpp",
               "ToolTip": "C:\\Users\\USER\\Documents\\data-structure-lab-2026-4\\Lec04_class\\Lec04_class\\ComplexTest.cpp",
@@ -79,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Complex.h",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\data-structure-lab-2026-4\\Lec04_class\\Lec04_class\\Complex.h",
               "ToolTip": "C:\\Users\\USER\\Documents\\data-structure-lab-2026-4\\Lec04_class\\Lec04_class\\Complex.h",

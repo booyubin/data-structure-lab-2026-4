@@ -1,5 +1,4 @@
 #pragma once
-// ========================== Location2D.h ==========================
 #ifndef LOCATION2D_H
 #define LOCATION2D_H
 

@@ -16,6 +16,7 @@ char map[MAZE_SIZE][MAZE_SIZE] = {
     { '1', '1', '1', '1', '1', '1' },
 };
 
+// 위치가 유효한지 검사 (0이거나 x인 경우만 이동 가능)
 bool isValidLoc(int r, int c)
 {
     if (r < 0 || c < 0 || r >= MAZE_SIZE || c >= MAZE_SIZE)
@@ -24,6 +25,7 @@ bool isValidLoc(int r, int c)
         return map[r][c] == '0' || map[r][c] == 'x';
 }
 
+// 미로를 원래 상태로 초기화
 void resetMap()
 {
     char temp[MAZE_SIZE][MAZE_SIZE] = {
@@ -40,7 +42,11 @@ void resetMap()
             map[i][j] = temp[i][j];
 }
 
-void DFS_stack()
+// -----------------------------------------------------------------
+// [원래 방식] 팝(Pop)할 때 방문 처리 함수들
+// -----------------------------------------------------------------
+
+void DFS_stack_origin()
 {
     stack<Location2D> locStack;
     Location2D entry(1, 0);
@@ -59,7 +65,7 @@ void DFS_stack()
             return;
         }
         else {
-            map[r][c] = '.';
+            map[r][c] = '.'; // Pop할 때 방문 처리 (중복 push 발생 위험)
 
             if (isValidLoc(r - 1, c)) locStack.push(Location2D(r - 1, c));
             if (isValidLoc(r + 1, c)) locStack.push(Location2D(r + 1, c));
@@ -67,11 +73,10 @@ void DFS_stack()
             if (isValidLoc(r, c + 1)) locStack.push(Location2D(r, c + 1));
         }
     }
-
     printf("DFS 미로 탐색 실패\n");
 }
 
-void BFS_deque()
+void BFS_deque_origin()
 {
     deque<Location2D> locDeque;
     Location2D entry(1, 0);
@@ -90,7 +95,7 @@ void BFS_deque()
             return;
         }
         else {
-            map[r][c] = '.';
+            map[r][c] = '.'; // Pop할 때 방문 처리 (중복 push 발생 위험)
 
             if (isValidLoc(r - 1, c)) locDeque.push_back(Location2D(r - 1, c));
             if (isValidLoc(r + 1, c)) locDeque.push_back(Location2D(r + 1, c));
@@ -98,41 +103,139 @@ void BFS_deque()
             if (isValidLoc(r, c + 1)) locDeque.push_back(Location2D(r, c + 1));
         }
     }
-
     printf("BFS 미로 탐색 실패\n");
 }
 
+
+// -----------------------------------------------------------------
+// [개선된 방식] 푸시(Push)할 때 즉시 방문 처리 함수들
+// -----------------------------------------------------------------
+
+void DFS_stack_improved()
+{
+    stack<Location2D> locStack;
+    Location2D entry(1, 0);
+    locStack.push(entry);
+    map[entry.row][entry.col] = '.'; // 시작점 방문 처리
+
+    while (locStack.empty() == false) {
+        Location2D here = locStack.top();
+        locStack.pop();
+
+        int r = here.row;
+        int c = here.col;
+        printf("(%d,%d) ", r, c);
+
+        // 상하좌우를 보며 갈 수 있는 곳이 있다면 Push할 때 즉시 '.' 처리
+        // 단, 목적지 'x'를 바로 덮어쓰지 않도록 유의
+        int dr[] = { -1, 1, 0, 0 };
+        int dc[] = { 0, 0, -1, 1 };
+
+        for (int i = 0; i < 4; i++) {
+            int nr = r + dr[i];
+            int nc = c + dc[i];
+
+            if (isValidLoc(nr, nc)) {
+                if (map[nr][nc] == 'x') {
+                    printf("(%d,%d) \nDFS 미로 탐색 성공\n", nr, nc);
+                    return;
+                }
+                map[nr][nc] = '.'; // Push할 때 즉시 방문 처리하여 중복 방지
+                locStack.push(Location2D(nr, nc));
+            }
+        }
+    }
+    printf("DFS 미로 탐색 실패\n");
+}
+
+void BFS_deque_improved()
+{
+    deque<Location2D> locDeque;
+    Location2D entry(1, 0);
+    locDeque.push_back(entry);
+    map[entry.row][entry.col] = '.'; // 시작점 방문 처리
+
+    while (locDeque.empty() == false) {
+        Location2D here = locDeque.front();
+        locDeque.pop_front();
+
+        int r = here.row;
+        int c = here.col;
+        printf("(%d,%d) ", r, c);
+
+        int dr[] = { -1, 1, 0, 0 };
+        int dc[] = { 0, 0, -1, 1 };
+
+        for (int i = 0; i < 4; i++) {
+            int nr = r + dr[i];
+            int nc = c + dc[i];
+
+            if (isValidLoc(nr, nc)) {
+                if (map[nr][nc] == 'x') {
+                    printf("(%d,%d) \nBFS 미로 탐색 성공\n", nr, nc);
+                    return;
+                }
+                map[nr][nc] = '.'; // Push할 때 즉시 방문 처리하여 중복 방지
+                locDeque.push_back(Location2D(nr, nc));
+            }
+        }
+    }
+    printf("BFS 미로 탐색 실패\n");
+}
+
+// -----------------------------------------------------------------
+// 메인 함수
+// -----------------------------------------------------------------
 int main()
 {
-    int ds_num;
+    int menu_num;
 
     while (true) {
+        printf("\n============================================\n");
+        printf(" 1) [원래 방식] Stack 이용 DFS\n");
+        printf(" 2) [원래 방식] Deque 이용 BFS\n");
+        printf(" 3) [개선 방식] Stack 이용 DFS (즉시 방문처리)\n");
+        printf(" 4) [개선 방식] Deque 이용 BFS (즉시 방문처리)\n");
+        printf(" 5) 프로그램 종료\n");
+        printf("============================================\n");
+        printf("메뉴를 선택하세요: ");
 
-        printf("\nDFS 데이터 구조 라이브러리 선택 : 1)stack, 2)deque 3)종료 \n");
-        scanf_s("%d", &ds_num);
+        // scanf_s 보안 경고 대응용 (환경에 따라 scanf로 변경 가능)
+        if (scanf_s("%d", &menu_num) != 1) break;
 
-        switch (ds_num) {
+        switch (menu_num) {
         case 1:
-            printf("Stack을 이용한 DFS 미로탐색\n");
+            printf("\n[원래 방식] Stack DFS 탐색 경로:\n");
             resetMap();
-            DFS_stack();
+            DFS_stack_origin();
             break;
 
         case 2:
-            printf("Deque를 이용한 BFS 미로탐색\n");
+            printf("\n[원래 방식] Deque BFS 탐색 경로:\n");
             resetMap();
-            BFS_deque();
+            BFS_deque_origin();
             break;
 
         case 3:
-            printf("프로그램 종료\n");
-            return 0;
+            printf("\n[개선 방식] 즉시 방문처리 Stack DFS 탐색 경로:\n");
+            resetMap();
+            DFS_stack_improved();
             break;
 
+        case 4:
+            printf("\n[개선 방식] 즉시 방문처리 Deque BFS 탐색 경로:\n");
+            resetMap();
+            BFS_deque_improved();
+            break;
+
+        case 5:
+            printf("프로그램을 종료합니다.\n");
+            return 0;
+
         default:
-            printf("잘못된 입력입니다.\n");
+            printf("잘못된 입력입니다. 1~5 사이의 숫자를 입력해주세요.\n");
             break;
         }
     }
-
+    return 0;
 }
